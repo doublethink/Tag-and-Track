@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#424243"
+    tools:context=".MainActivity">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:textColor="#91c8f4"
+        android:text="@string/main_hint"/>
+	
+    <LinearLayout
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="130dp" >
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addButton" 
+            android:background="#91c8f4"
+            android:onClick="addButton"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search" 
+            android:layout_marginTop="40dp"
+            android:background="#91c8f4"
+            android:onClick="searchButton"/>
+
+	    </LinearLayout>
+
+</RelativeLayout>

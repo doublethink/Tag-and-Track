@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+
+    <item
+        android:id="@+id/context_UID"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="UID"/>
+    
+    <item
+        android:id="@+id/context_species"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="Species"/>
+    
+    <item
+        android:id="@+id/context_description"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="Description"/>
+    
+    <item
+        android:id="@+id/context_tag"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Tag number"/>
+
+</menu>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:showAsAction="never"
+        android:orderInCategory="4"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/add_icon"
+        android:showAsAction="always"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/edit_find"
+        android:showAsAction="always"
+        android:orderInCategory="1"/>
+    <item 
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        android:showAsAction="never"
+        android:orderInCategory="3"/>
+</menu>
